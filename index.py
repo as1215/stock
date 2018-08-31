@@ -6,7 +6,7 @@ import os
 
 os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 pd.options.mode.chained_assignment = None 
-
+#test
 engine = create_engine('oracle+cx_oracle://dwhuaxing:QF#wJpjLh@sensor3')
 
 #把sql语句粘贴到下面                       
